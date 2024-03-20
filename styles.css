@@ -55,18 +55,26 @@ ul {
     width: 450px;
 }
 
-.sign1 {
+.sign1, .sign2 {
     width: 100px;
     height: 30px;
     background-color: #3882F6;
     border-radius: 10px;
+    border-style: solid;
     color: #F9FAF8;
-    border: 0px;
-    box-shadow: 0px;
+    /* box-shadow: 0px; */
+}
+
+.sign1 {
+    border-width: 0px;
+}
+
+.sign2 {
+    border-width: 2px;
+    border-color: #F9FAF8;
 }
 
 .content1 {
-    margin: 50px 0px;
     height: 400px;
 }
 
@@ -75,7 +83,7 @@ ul {
 }
 
 .content2 {
-    padding: 0px 175px;
+    padding: 50px 175px;
 }
 
 .infoheadtext {
@@ -91,8 +99,9 @@ ul {
     width: 200px;
 }
 
-.tilegroup{
+.tilegroup {
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
@@ -105,14 +114,46 @@ ul {
     border-color: #3882F6;
 }
 
-.quotetext{
+.content3 {
+    padding: 100px 175px;
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
     font-size: 36px;
     font-weight: 250;
     color: #1F2937;
     font-style: italic;
 }
 
-.content3{
-    padding: 0px 175px;
-    background-color: #E5E7EB;
+.authortext {
+    text-align: right;
+    margin-right: 150px;
+    font-size: 18px;
+}
+
+.content4 {
+    padding: 100px 175px;
+}
+
+.calltoaction {
+    padding: 0px 200px;
+    height: 150px;
+    background-color:#3882F6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 100px; */
+}
+
+.footer {
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
